@@ -43,10 +43,10 @@
 					<!-- sidebar menu start-->
 					<ul class="sidebar-menu" id="nav-accordion">
 						<p class="centered">
-							<a href="home.html"><img src="assets/img/new/home_selected_icon.png" class="img-circle" width="60"></a>
+							<a href="home.html"><img src="assets/img/new/home_icon.png" class="img-circle" width="60"></a>
 						</p>
 						<p class="centered">
-							<a href="support.html"><img src="assets/img/new/support_icon.png" class="img-circle" width="60"></a>
+							<a href="support.html"><img src="assets/img/new/support_selected_icon.png" class="img-circle" width="60"></a>
 						</p>
 						<p class="centered">
 							<a href="profile.html"><img src="assets/img/new/manager_icon.png" class="img-circle" width="60"></a>
@@ -61,7 +61,145 @@
 				<section class="wrapper">
 
 					<div class="row">
-						
+						<div class="col-lg-6 main-chart">
+
+							<div id="chat-column-holder" class="responsive-column content-column">
+								
+								<div class="chat-column">
+									<div id="scrollingChat">
+
+										<span><h3 style="font-weight: 200; color:#222;">Chat History</h3></span>
+										<div class="input-group">
+											<input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+											<div class="input-group-btn">
+												<button class="btn btn-default" type="submit">
+													<i class="glyphicon glyphicon-search"></i>
+												</button>
+											</div>
+										</div>
+										<br/><br/>
+										
+										<!-- Previous Chat History -->
+										<div class="segments load">
+											<div class="from-user top">
+												<div class="message-inner">
+													<p>
+														My notes needs to be setup
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="segments load">
+											<div class="from-watson top">
+												<div class="message-inner">
+													<ul id="sortable" class="task-list1 ui-sortable">
+														<li class="list-primary">
+															<div class="task-title">
+																<span class="task-title-sp main">Might I suggest the following links:</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Notes ID and Password Administration</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">Manage all of your Notes ID and password administrative needs</span>
+															</div>
+														</li>
+														<hr width="95%">
+														<li>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Reinitialize Notes</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">Reinitialize Notes by stripping the notes.ini file.</span>
+															</div>
+														</li>
+														<hr width="95%">
+														<li>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Temporary Notes Password Not Accepted</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">After a Notes password reset, the temporary password is not allowing you to log in to Notes.</span>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<div class="segments load">
+											<div class="from-user top">
+												<div class="message-inner">
+													<p>
+														My notes ARCHIVE needs to be setup
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="segments load">
+											<div class="from-watson top">
+												<div class="message-inner">
+													<ul id="sortable" class="task-list1 ui-sortable">
+														<li class="list-primary">
+															<div class="task-title">
+																<span class="task-title-sp main">Might I suggest the following links:</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Notes ID and Password Administration</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">Manage all of your Notes ID and password administrative needs</span>
+															</div>
+														</li>
+														<hr width="95%">
+														<li>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Reinitialize Notes</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">Reinitialize Notes by stripping the notes.ini file.</span>
+															</div>
+														</li>
+														<hr width="95%">
+														<li>
+															<div class="task-title">
+																<span class="task-title-sp ans title">Temporary Notes Password Not Accepted</span>
+															</div>
+															<div class="task-title">
+																<span class="task-title-sp ans">After a Notes password reset, the temporary password is not allowing you to log in to Notes.</span>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										
+										<span>
+											<ul class="pagination ossn-pagination">
+												<li><a href="#" class="ossn-pagination-page" style="text-decoration: none !important;">Page</a></li>
+												<li class="active"><a href="?offset=1">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">.</a></li>
+												<li><a href="#">.</a></li>
+												<li><a href="#">13</a></li>
+												<li><a href="#">Next</a></li>
+											</ul>
+										</span>
+										
+										
+										
+									</div>
+								</div>
+							</div>
+
+							<div id="payload-column" class="fixed-column content-column">
+								<div class="hide" id="payload-initial-message">
+									Type something to see the output
+								</div>
+							</div>
+						</div>
 
 						<div class="col-lg-6 ds">
 							
